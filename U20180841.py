@@ -33,7 +33,7 @@ class Administrativo(Persona):
     def descripcion(self):
         return f"Soy {self.nombre}, tengo {self.edad} años y trabajo como {self.cargo} en la UNIVO."
 
-personas = [Estudiante("Juan", 15, 3), Profesor("W. Morales", 30, "POO"), Administrativo("Pedro", 38, "Secretario")]
+personas = [Estudiante("Juan", 24, 3), Profesor("W. Morales", 30, "POO"), Administrativo("Pedro", 38, "Secretario")]
 
 for persona in personas:
     print(persona.descripcion())
